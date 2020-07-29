@@ -6,10 +6,14 @@
     font-family: 'Public sans';
 }
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 10px 0;
+    background: #2d314d;
+    color: white;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 84%, 70%); 
 }
 body{
     background-color: #fafafa;
