@@ -282,19 +282,23 @@ footer .enq{
     visibility: hidden;
     position: fixed;
     cursor: pointer;
-}
-.pop.modal{
-    position: fixed;
     top: 0;
-    visibility: visible;
     left: 0;
     padding: 50px 0;
     transition: all .5s;
+    transform: rotateX(80deg);
     width: 100%;
+    opacity: 0;
     height: 100vh;
     object-fit: contain;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.5);
+}
+.pop.modal{
+    position: fixed;
+    transform: rotateX(0deg);
+    opacity: 1;
+    visibility: visible;
 }
 
 @media screen and (max-width: 1114px){
