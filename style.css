@@ -22,7 +22,10 @@ body.modal{
     overflow: hidden;
 }
 ::-webkit-scrollbar{
-    width: 0px;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #31d35c;
 }
 /* STYLING */
 .bg-img{
